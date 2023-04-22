@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="FormulaireELEVE.css">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body background="page/1.">
+	<center>
+     <fieldset>
+     	<form method="POST" action="index.php">
+     		<h1>Eleve</h1>
+            <hr>
+     		<table>
+     			<tr>
+     			<td>Nom:  </td><td><input type="text" name="NomE" required=""><br><br></td>
+     			</tr>
+     			<tr>
+     			<td>Prénom:  </td><td><input type="text" name="PrenomE" required=""><br><br></td><br>
+     			</tr>
+     			<tr>
+     			<td>Date et lieu de naissance:  </td><td><input type="date/text" name="DLNE" required=""><br><br></td>
+     			</tr>
+<tr>
+<td>Sexe: </td><td>
+<input type="Radio" value="Homme" name="SexeE[]"><label>Homme</label>
+<input type="Radio" value="Femme" name="SexeE[]"><label>Femme</label>
+</td>
+</tr>     			<tr>
+		<td>Nationalité:  </td><td><input type="text" name="NE" required=""><br><br></td>
+     			</tr>
+           		<tr>
+     			<td>Etablissement de provenance:  </td><td><input type="text" name="EPE" required=""><br><br></td>
+     			</tr>
+           		<tr>
+     				<td>Contact:  </td><td><input type="number" name="ContactE" required=""><br><br></td>
+     			</tr>
+
+     			 <tr>
+     				<td><input type="submit" value="Enregistrer"><br><br></td>
+     			</tr>
+
+
+     			<td>
+     		       <button>
+     				<a href="FormulaireSanté.php">Suivant</a>
+     		       </button>
+     			</td>
+
+     		</table>
+     	</form>
+     </fieldset>
+     </center>
+</body>
+</html>
